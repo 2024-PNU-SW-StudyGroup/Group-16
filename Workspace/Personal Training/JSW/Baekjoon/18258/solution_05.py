@@ -1,13 +1,10 @@
-# sol 6. resizable Circular Queue 구현 => 통과
-from array import array
+# sol 6. Array-based resizable Circular Queue 구현 => 통과
 import sys
 
 class Queue:
     def __init__(self, capacity=32):
         self.__capacity = capacity
-        self.__array = array('I')
-        for _ in range(self.__capacity):
-            self.__array.append(0)
+        self.__array = [0] * capacity
         self.__front = 0
         self.__tail = 0
         self.__size = 0
@@ -41,9 +38,7 @@ class Queue:
         return self.__size == self.__capacity
     
     def __resize(self):
-        temp = array('I')
-        for _ in range(self.__capacity*2):
-            temp.append(0)
+        temp = [0] * (self.__capacity * 2)
         for i in range(self.__capacity):
             temp[i] = self.__array[(self.__front+i)%self.__capacity]
         self.__front = 0
