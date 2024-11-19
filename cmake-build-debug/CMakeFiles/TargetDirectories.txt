@@ -1,0 +1,3 @@
+/Users/imseung-u/Documents/GitHub/Group-16/cmake-build-debug/CMakeFiles/Group_16.dir
+/Users/imseung-u/Documents/GitHub/Group-16/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/imseung-u/Documents/GitHub/Group-16/cmake-build-debug/CMakeFiles/rebuild_cache.dir
