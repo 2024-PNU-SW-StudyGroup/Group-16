@@ -5,6 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
@@ -41,6 +42,8 @@ events:
       Build flags: 
       Id flags: -c 
 =======
+=======
+>>>>>>> refs/remotes/origin/main
       - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
@@ -57,6 +60,9 @@ events:
       Compiler: C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/gcc.exe 
       Build flags: 
       Id flags:  
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/main
+=======
 >>>>>>> refs/remotes/origin/main
       
       The output was:
@@ -64,23 +70,34 @@ events:
       
       
 <<<<<<< HEAD
+<<<<<<< HEAD
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is AppleClang, found in:
         /Users/imseung-u/Documents/GitHub/Group-16/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.o
 =======
+=======
+>>>>>>> refs/remotes/origin/main
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
         C:/Users/User/CLionProjects/Group-16/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/main
+=======
 >>>>>>> refs/remotes/origin/main
       
   -
     kind: "try_compile-v1"
     backtrace:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+=======
+      - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+>>>>>>> refs/remotes/origin/main
 =======
       - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
       - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
@@ -90,8 +107,13 @@ events:
       - "Detecting C compiler ABI info"
     directories:
 <<<<<<< HEAD
+<<<<<<< HEAD
       source: "/Users/imseung-u/Documents/GitHub/Group-16/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KakzsG"
       binary: "/Users/imseung-u/Documents/GitHub/Group-16/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KakzsG"
+=======
+      source: "C:/Users/User/CLionProjects/Group-16/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-29n8qw"
+      binary: "C:/Users/User/CLionProjects/Group-16/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-29n8qw"
+>>>>>>> refs/remotes/origin/main
 =======
       source: "C:/Users/User/CLionProjects/Group-16/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-29n8qw"
       binary: "C:/Users/User/CLionProjects/Group-16/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-29n8qw"
@@ -101,15 +123,19 @@ events:
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
 <<<<<<< HEAD
+<<<<<<< HEAD
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+=======
+>>>>>>> refs/remotes/origin/main
 =======
 >>>>>>> refs/remotes/origin/main
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
+<<<<<<< HEAD
 <<<<<<< HEAD
         Change Dir: '/Users/imseung-u/Documents/GitHub/Group-16/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KakzsG'
         
@@ -149,6 +175,8 @@ events:
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks
 =======
+=======
+>>>>>>> refs/remotes/origin/main
         Change Dir: 'C:/Users/User/CLionProjects/Group-16/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-29n8qw'
         
         Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.3/bin/ninja/win/x64/ninja.exe" -v cmTC_9285f
@@ -202,6 +230,9 @@ events:
         C:\\Program Files\\JetBrains\\CLion 2024.2.3\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_9285f.exe C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_9285f.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_9285f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
         GNU ld (GNU Binutils) 2.40\x0d
         COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9285f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_9285f.'\x0d
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/main
+=======
 >>>>>>> refs/remotes/origin/main
         
       exitCode: 0
@@ -209,8 +240,13 @@ events:
     kind: "message-v1"
     backtrace:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+=======
+      - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+>>>>>>> refs/remotes/origin/main
 =======
       - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
       - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
@@ -221,6 +257,7 @@ events:
         found start of include info
         found start of implicit include info
 <<<<<<< HEAD
+<<<<<<< HEAD
           add: [/Library/Developer/CommandLineTools/usr/lib/clang/16/include]
           add: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include]
           add: [/Library/Developer/CommandLineTools/usr/include]
@@ -230,6 +267,8 @@ events:
         collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
         implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/16/include;/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
 =======
+=======
+>>>>>>> refs/remotes/origin/main
           add: [C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
           add: [C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
           add: [C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
@@ -240,6 +279,9 @@ events:
         collapse include dir [C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
         collapse include dir [C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/x86_64-w64-mingw32/include]
         implicit include dirs: [C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/include;C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/x86_64-w64-mingw32/include]
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/main
+=======
 >>>>>>> refs/remotes/origin/main
       
       
@@ -247,8 +289,13 @@ events:
     kind: "message-v1"
     backtrace:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+=======
+      - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+>>>>>>> refs/remotes/origin/main
 =======
       - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
       - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
@@ -258,6 +305,7 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+<<<<<<< HEAD
 <<<<<<< HEAD
         ignore line: [Change Dir: '/Users/imseung-u/Documents/GitHub/Group-16/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KakzsG']
         ignore line: []
@@ -321,6 +369,8 @@ events:
         implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib/swift]
         implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks]
 =======
+=======
+>>>>>>> refs/remotes/origin/main
         ignore line: [Change Dir: 'C:/Users/User/CLionProjects/Group-16/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-29n8qw']
         ignore line: []
         ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.3/bin/ninja/win/x64/ninja.exe" -v cmTC_9285f]
@@ -393,12 +443,16 @@ events:
         implicit objs: []
         implicit dirs: []
         implicit fwks: []
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/main
+=======
 >>>>>>> refs/remotes/origin/main
       
       
   -
     kind: "message-v1"
     backtrace:
+<<<<<<< HEAD
 <<<<<<< HEAD
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
@@ -413,6 +467,8 @@ events:
       LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
       TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.8)
 =======
+=======
+>>>>>>> refs/remotes/origin/main
       - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
       - "C:/Program Files/JetBrains/CLion 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
@@ -420,5 +476,8 @@ events:
     message: |
       Running the C compiler's linker: "C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/ld.exe" "-v"
       GNU ld (GNU Binutils) 2.40
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/main
+=======
 >>>>>>> refs/remotes/origin/main
 ...

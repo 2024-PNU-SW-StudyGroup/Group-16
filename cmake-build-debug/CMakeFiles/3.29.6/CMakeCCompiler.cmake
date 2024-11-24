@@ -1,13 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 set(CMAKE_C_COMPILER "/Library/Developer/CommandLineTools/usr/bin/cc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "AppleClang")
 set(CMAKE_C_COMPILER_VERSION "16.0.0.16000026")
 =======
+=======
+>>>>>>> refs/remotes/origin/main
 set(CMAKE_C_COMPILER "C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "13.1.0")
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/main
+=======
 >>>>>>> refs/remotes/origin/main
 set(CMAKE_C_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_C_COMPILER_WRAPPER "")
@@ -21,7 +27,11 @@ set(CMAKE_C17_COMPILE_FEATURES "c_std_17")
 set(CMAKE_C23_COMPILE_FEATURES "c_std_23")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 set(CMAKE_C_PLATFORM_ID "Darwin")
+=======
+set(CMAKE_C_PLATFORM_ID "MinGW")
+>>>>>>> refs/remotes/origin/main
 =======
 set(CMAKE_C_PLATFORM_ID "MinGW")
 >>>>>>> refs/remotes/origin/main
@@ -32,6 +42,7 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 set(CMAKE_AR "/Library/Developer/CommandLineTools/usr/bin/ar")
 set(CMAKE_C_COMPILER_AR "")
@@ -48,6 +59,8 @@ set(CMAKE_MT "")
 set(CMAKE_TAPI "/Library/Developer/CommandLineTools/usr/bin/tapi")
 set(CMAKE_COMPILER_IS_GNUCC )
 =======
+=======
+>>>>>>> refs/remotes/origin/main
 set(CMAKE_AR "C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/ar.exe")
 set(CMAKE_C_COMPILER_AR "C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/gcc-ar.exe")
 set(CMAKE_RANLIB "C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/bin/ranlib.exe")
@@ -62,6 +75,9 @@ set(CMAKE_C_COMPILER_LINKER_FRONTEND_VARIANT GNU)
 set(CMAKE_MT "")
 set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
 set(CMAKE_COMPILER_IS_GNUCC 1)
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/main
+=======
 >>>>>>> refs/remotes/origin/main
 set(CMAKE_C_COMPILER_LOADED 1)
 set(CMAKE_C_COMPILER_WORKS TRUE)
@@ -103,13 +119,19 @@ endif()
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/Library/Developer/CommandLineTools/usr/lib/clang/16/include;/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib/swift")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks")
 =======
+=======
+>>>>>>> refs/remotes/origin/main
 set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/include;C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/Program Files/JetBrains/CLion 2024.2.3/bin/mingw/x86_64-w64-mingw32/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/main
+=======
 >>>>>>> refs/remotes/origin/main

@@ -1,12 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ToolSet: 1.0 (local)Ninja: 1.12.0@/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja
 Options: 
 
 Options:-DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja
 =======
+=======
+>>>>>>> refs/remotes/origin/main
 ToolSet: 11.0 w64 (local)@C:\Program Files\JetBrains\CLion 2024.2.3\bin\mingw
 Ninja: 1.12.0@C:\Program Files\JetBrains\CLion 2024.2.3\bin\ninja\win\x64\ninja.exe
 Options: 
 
+<<<<<<< HEAD
+Options:-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.3/bin/ninja/win/x64/ninja.exe
+>>>>>>> refs/remotes/origin/main
+=======
 Options:-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.3/bin/ninja/win/x64/ninja.exe
 >>>>>>> refs/remotes/origin/main

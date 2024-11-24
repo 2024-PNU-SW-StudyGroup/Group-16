@@ -5,7 +5,13 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(Group_16
 <<<<<<< HEAD
+<<<<<<< HEAD
     Workspace/week08/LSW/hard/1018.c)
+=======
+    Workspace/week07/LSW/27443.c
+    Workspace/week08/LSW/hard/1018.c
+        Workspace/week08/LSW/hard/1436.c)
+>>>>>>> refs/remotes/origin/main
 =======
     Workspace/week07/LSW/27443.c
     Workspace/week08/LSW/hard/1018.c

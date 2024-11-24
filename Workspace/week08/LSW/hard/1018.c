@@ -1,8 +1,11 @@
 #include <stdio.h>
 <<<<<<< HEAD
+<<<<<<< HEAD
 int main() {
 
 =======
+=======
+>>>>>>> refs/remotes/origin/main
 
 int count_changes(char board[8][8], char w[8][8], char b[8][8]) {
     int i, j;
@@ -59,5 +62,8 @@ int main(void) {
     printf("%d\n", changes);
 
     return 0;
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/main
+=======
 >>>>>>> refs/remotes/origin/main
 }
