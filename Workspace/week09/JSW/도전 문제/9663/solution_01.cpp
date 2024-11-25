@@ -45,5 +45,10 @@ int main() {
     count = 0;
     recurse(0);
     std::cout << count;
+
+
+    delete[] state;
+    delete[] visited;
+    
     return 0;
 }
