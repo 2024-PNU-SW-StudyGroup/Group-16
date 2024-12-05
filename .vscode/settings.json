@@ -1,5 +1,6 @@
 {
     "files.associations": {
+<<<<<<< HEAD
         "__bit_reference": "cpp",
         "__hash_table": "cpp",
         "__split_buffer": "cpp",
@@ -10,5 +11,9 @@
         "string_view": "cpp",
         "unordered_map": "cpp",
         "vector": "cpp"
+=======
+        "vector": "cpp",
+        "xmemory": "cpp"
+>>>>>>> refs/remotes/origin/main
     }
 }
