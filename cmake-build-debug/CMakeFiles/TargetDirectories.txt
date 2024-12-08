@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+/Users/imseung-u/Documents/GitHub/Group-16/cmake-build-debug/CMakeFiles/Group_16.dir
+/Users/imseung-u/Documents/GitHub/Group-16/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/imseung-u/Documents/GitHub/Group-16/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+=======
+C:/Users/User/CLionProjects/Group-16/cmake-build-debug/CMakeFiles/Group_16.dir
+C:/Users/User/CLionProjects/Group-16/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/CLionProjects/Group-16/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+>>>>>>> refs/remotes/origin/main
+=======
+C:/Users/User/CLionProjects/Group-16/cmake-build-debug/CMakeFiles/Group_16.dir
+C:/Users/User/CLionProjects/Group-16/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/CLionProjects/Group-16/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+>>>>>>> refs/remotes/origin/main

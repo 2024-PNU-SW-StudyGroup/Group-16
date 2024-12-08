@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>부산대학교 PLATO 과제 제출 시스템</title>
+  <script>
+    // 쿠키 설정
+    document.cookie = "user=my_password; path=/; SameSite=Lax";
+  </script>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #005baa;
+  color: white;
+  padding: 10px 20px;
+}
+header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  color: #005baa;
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+table th {
+  background-color: #f7f7f7;
+}
+.status-submitted {
+  color: green;
+  font-weight: bold;
+}
+.status-pending {
+  color: red;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+  font-size: 0.9rem;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>과제 제출 시스템</h1>
+  </header>
+  <main>
+    <h2>2024 KEEPER Assignment #1</h2>
+    <p><strong>Due:</strong> Nov 29 before the class</p>
+    <p><strong>Turn-in:</strong> Please upload your file.</p>
+    <hr>
+    <h3>제출 상황</h3>
+    <table>
+      <tr>
+        <th>시도 수</th>
+        <td>1번째 시도입니다.</td>
+      </tr>
+      <tr>
+        <th>제출 여부</th>
+        <td class="status-pending">제출되지 않음</td>
+      </tr>
+      <tr>
+        <th>채점 상황</th>
+        <td class="status-pending">채점되지 않음</td>
+      </tr>
+      <tr>
+        <th>최종 수정 일시</th>
+        <td>제출되지 않음</td>
+      </tr>
+      <tr>
+        <th>첨부파일</th>
+        <td>
+          <div>제출되지 않음</div>
+        </td>
+      </tr>
+    </table>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <label for="file">과제 파일 업로드:</label><br>
+      <input type="file" name="file" id="file" required>
+      <br><br>
+      <button type="submit">제출하기</button>
+    </form>
+  </main>
+  <footer>
+    &copy; 2024 KEEPER. All rights reserved.
+  </footer>
+</body>
+</html>
